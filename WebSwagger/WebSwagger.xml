@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebSwagger</name>
+    </assembly>
+    <members>
+        <member name="T:WebSwagger.Common.BaseServices">
+            <summary>
+            基础服务
+            </summary>
+        </member>
+        <member name="F:WebSwagger.Common.BaseServices._configuration">
+            <summary>
+            配置服务
+            </summary>
+        </member>
+        <member name="M:WebSwagger.Common.BaseServices.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            注入
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:WebSwagger.Common.BaseServices.GetConnection">
+            <summary>
+            重写
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebSwagger.Common.CoreDbContext">
+            <summary>
+            数据库连接
+            </summary>
+        </member>
+        <member name="M:WebSwagger.Common.CoreDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{WebSwagger.Common.CoreDbContext})">
+            <summary>
+            重载注入
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:WebSwagger.Common.CoreDbContext.cashrecodes">
+            <summary>
+            对应表信息
+            </summary>
+        </member>
+        <member name="T:WebSwagger.Controllers.GoodsController">
+            <summary>
+            商品服务
+            </summary>
+        </member>
+        <member name="F:WebSwagger.Controllers.GoodsController._serviceProvider">
+            <summary>
+            申明
+            </summary>
+        </member>
+        <member name="M:WebSwagger.Controllers.GoodsController.#ctor(System.IServiceProvider)">
+            <summary>
+            注入
+            </summary>
+            <param name="serviceProvider"></param>
+        </member>
+        <member name="M:WebSwagger.Controllers.GoodsController.Get(System.Int32)">
+            <summary>
+            获取信息
+            </summary>
+            <param name="id">用户ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebSwagger.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Put
+            </summary>
+            <param name="id">用户ID</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:WebSwagger.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="id">用户ID</param>
+        </member>
+        <member name="T:WebSwagger.DAL.CashServices">
+            <summary>
+            流水服务
+            </summary>
+        </member>
+        <member name="M:WebSwagger.DAL.CashServices.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            继承
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:WebSwagger.DAL.CashServices.GetCashrecodeById(System.Int32)">
+            <summary>
+            根据Id获取信息
+            </summary>
+            <param name="Id">Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebSwagger.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            SyncDb
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:WebSwagger.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebSwagger.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebSwagger.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            SyncDb
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

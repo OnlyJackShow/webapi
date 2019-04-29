@@ -1,0 +1,15 @@
+F:\C#\WebSwagger\bin\Debug\netcoreapp2.2\WebSwagger.deps.json
+F:\C#\WebSwagger\bin\Debug\netcoreapp2.2\WebSwagger.runtimeconfig.json
+F:\C#\WebSwagger\bin\Debug\netcoreapp2.2\WebSwagger.runtimeconfig.dev.json
+F:\C#\WebSwagger\bin\Debug\netcoreapp2.2\WebSwagger.dll
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.csproj.CoreCompileInputs.cache
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.RazorAssemblyInfo.cache
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.RazorAssemblyInfo.cs
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.AssemblyInfoInputs.cache
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.AssemblyInfo.cs
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.RazorTargetAssemblyInfo.cache
+F:\C#\WebSwagger\bin\Debug\netcoreapp2.2\WebSwagger.pdb
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.dll
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.pdb
+F:\C#\WebSwagger\bin\Debug\netcoreapp2.2\WebSwagger.xml
+F:\C#\WebSwagger\obj\Debug\netcoreapp2.2\WebSwagger.csprojAssemblyReference.cache
